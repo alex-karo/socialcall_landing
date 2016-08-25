@@ -1,0 +1,43 @@
+@import "../common/variables";
+
+.sign_up_block {
+
+  &__title {
+    font-size: 48px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 55px;
+  }
+
+  &__text {
+    width: 720px;
+    margin: 0 auto 40px;
+  }
+}
+
+.sign_up_form {
+  margin-bottom: 80px;
+
+  &__input {
+    background: rgba($white, .63);
+    border: 2px solid $white;
+    margin-right: 20px;
+    padding: 10px 20px;
+    width: 210px;
+    color: $deep;
+    font-size: 18px;
+  }
+
+  &__submit {
+    border: none;
+    width: 210px;
+    color: $white;
+    padding: 10px 20px;
+    background-color: $cyan;
+    border: 2px solid $cyan;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

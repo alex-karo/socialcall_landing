@@ -1,0 +1,42 @@
+@import "../common/variables";
+
+.functions {
+  padding-top: 195px;
+  background-image: linear-gradient(176deg, $white 200px, $lightestgray 100px);
+  text-align: center;
+
+  &__title {
+    margin-bottom: 100px;
+  }
+
+  &__list {
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+  }
+
+  &__image {
+    vertical-align: top;
+    display: inline-block;
+    margin: 15px 40px 0;
+  }
+}
+
+.functions_list {
+
+  &__item {
+    margin-bottom: 10px;
+  }
+
+  &--left {
+    text-align: right;
+
+    .function__icon {
+      float: right;
+    }
+  }
+
+  &--right {
+    text-align: left;
+  }
+}

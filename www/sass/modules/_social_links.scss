@@ -1,0 +1,46 @@
+@import "../common/variables";
+
+.social_links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 35px;
+    }
+  }
+}
+
+.social_link {
+  display: block;
+  width: 56px;
+  height: 56px;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 100%;
+  transition: all .4s ease;
+  border: 3px $white solid;
+
+  overflow: hidden;
+  text-indent: 9999px;
+
+  &--vk {
+    background-image: url("/img/icons/vk_logo.svg");
+  }
+
+  &--fb {
+    background-image: url("/img/icons/fb_logo.svg");
+  }
+
+  &--tw {
+    background-image: url("/img/icons/tw_logo.svg");
+  }
+
+  &:hover {
+
+  }
+}

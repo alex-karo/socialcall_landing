@@ -1,0 +1,53 @@
+@import "../common/variables";
+
+.support {
+  @include clearfix;
+
+  &__text {
+    margin-bottom: 75px;
+  }
+
+  &__feedback {
+    width: 55%;
+    float: left;
+  }
+
+  &__contacts {
+    width: 37%;
+    float: right;
+  }
+}
+
+.feedback_form {
+
+  &__input,
+  &__textarea {
+    width: 100%;
+    display: block;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: $white;
+    border: solid 3px #939292;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  &__textarea {
+    resize: none;
+    height: 225px;
+    overflow-x: hidden;
+    outline: none;
+  }
+
+  &__submit {
+    background-color: $white;
+    border: solid 3px $cyan;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 135px;
+    color: $cyan;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

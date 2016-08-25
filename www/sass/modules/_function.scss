@@ -1,0 +1,19 @@
+@import "../common/variables";
+
+.function {
+  @include clearfix;
+
+  &__title {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  &__text {
+    margin-top: 0;
+  }
+
+  &__icon {
+    float: left;
+    margin: 15px 40px;
+  }
+}

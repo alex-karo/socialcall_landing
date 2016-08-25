@@ -1,0 +1,21 @@
+@import "../common/variables";
+
+.main_footer {
+  text-align: center;
+  height: 475px;
+  padding-top: 150px;
+  background-image: url("/img/podval.png");
+  color: $white;
+
+  &__logo {
+    margin-bottom: 50px;
+  }
+
+  &__social_links {
+    margin-bottom: 70px;
+  }
+
+  &__copyright {
+    font-size: 20px;
+  }
+}

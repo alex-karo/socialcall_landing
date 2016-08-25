@@ -1,0 +1,17 @@
+@import "../common/variables";
+
+.get_app {
+  background-image: url("/img/getttap.png");
+  height: 615px;
+  padding-top: 140px;
+  color: $white;
+  text-align: center;
+  
+  &__title:after {
+    background-color: $white;
+  }
+
+  &__text {
+    margin-bottom: 75px;
+  }
+}

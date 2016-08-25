@@ -1,0 +1,17 @@
+@import "../common/variables";
+
+.white_button {
+  background: none;
+  border: 2px solid $white;
+  font-size: 15px;
+  padding: 5px 10px;
+  color: $white;
+
+  transition: all ease .4s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba($white, .63);
+    color: $deep;
+  }
+}

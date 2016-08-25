@@ -1,0 +1,52 @@
+@import "../common/variables";
+
+.reviews {
+  background-image: url('/img/reviews_fon.png'), linear-gradient(to bottom, $lightestgray 0%, $lightestgray 50%, $white 50%);
+  height: 615px;
+  padding: 130px;
+  overflow: hidden;
+
+  &__title {
+    color: $white;
+    margin-bottom: 80px;
+
+    &:after {
+      background-color: $white;
+    }
+  }
+
+  &__list {
+    text-align: center;
+  }
+
+  &__item {
+    display: inline-block;
+  }
+
+  &__dots {
+    text-align: center;
+
+    li {
+      display: inline-block;
+
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
+
+      &.slick-active button {
+        background-color: transparent;
+      }
+    }
+
+    button {
+      display: block;
+      width: 19px;
+      height: 19px;
+      background-color: $white;
+      border: 3px solid $white;
+      font-size: 0;
+      border-radius: 100%;
+      cursor: pointer;
+    }
+  }
+}

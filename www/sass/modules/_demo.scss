@@ -1,0 +1,10 @@
+@import "../common/variables";
+
+.demo {
+  text-align: center;
+  padding-top: 30px;
+
+  &__text {
+    margin-bottom: 40px;
+  }
+}

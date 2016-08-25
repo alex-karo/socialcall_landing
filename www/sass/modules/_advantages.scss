@@ -1,0 +1,33 @@
+@import "../common/variables";
+
+.advantages {
+  text-align: center;
+  padding-top: 70px;
+
+  &__item {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  &__icon {
+
+  }
+
+  &__title {
+    font-size: 24px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    font-weight: normal;
+    color: $ocean;
+  }
+
+  &__text {
+    width: 190px;
+    margin: auto;
+  }
+}

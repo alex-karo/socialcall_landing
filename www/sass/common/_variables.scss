@@ -1,0 +1,40 @@
+/*
+	1. Colors
+*/
+
+$sky: #32ccfe;
+$ocean: #66cdcc;
+$deep: #227280;
+$cyan: #25dbdb;
+
+$lightestgray: #f6f6f6;
+$lightgray: #bcbcbc;
+$gray: #939292;
+$darkgray: #666666;
+
+$white: #ffffff;
+
+$text: $darkgray;
+
+/*
+	2. Breakpoints
+*/
+
+$xsmall: 750px;
+$small: 960px;
+$medium: 1120px;
+$large: 1440px;
+$xlarge: 1700px;
+
+
+/*
+	3. Sizes
+*/
+
+
+$menuBreakpoint: $medium;
+
+$mobileMenuSize: 260px;
+$tabletMenuSize: 320px;
+
+$headerFirstLineSize: 3.666rem;

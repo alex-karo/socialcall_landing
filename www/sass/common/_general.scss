@@ -1,0 +1,78 @@
+@import "../common/variables";
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+
+	min-width: 1110px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: $text;
+}
+
+a {
+	color: inherit;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+}
+
+input,
+button {
+	outline: none;
+}
+
+::selection {
+	background: $sky;
+	color: $white;
+}
+
+.wrapper {
+	@include clearfix;
+
+	width: 1080px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: auto;
+}
+
+.title {
+	text-align: center;
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	font-size: 55px;
+	font-weight: normal;
+
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 100px;
+		height: 4px;
+		background-color: $ocean;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+
+.subtitle {
+	font-size: 24px;
+	text-align: center;
+}

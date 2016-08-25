@@ -1,0 +1,23 @@
+@import "common/variables";
+@import "common/mixins";
+@import "common/normalize";
+@import "common/general";
+@import "common/ui";
+
+@import "modules/main_header";
+@import "modules/main_menu";
+@import "modules/sign_up_block";
+
+@import "modules/advantages";
+@import "modules/functions";
+@import "modules/function";
+@import "modules/reviews";
+@import "modules/review";
+@import "modules/demo";
+@import "modules/get_app";
+@import "modules/support";
+@import "modules/feedback_form";
+@import "modules/contact_list";
+@import "modules/contact";
+@import "modules/main_footer";
+@import "modules/social_links";
