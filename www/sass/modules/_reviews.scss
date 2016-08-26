@@ -2,6 +2,7 @@
 
 .reviews {
   background-image: url('/img/reviews_fon.png'), linear-gradient(to bottom, $lightestgray 0%, $lightestgray 50%, $white 50%);
+  background-size: cover;
   height: 615px;
   padding: 130px;
   overflow: hidden;

@@ -3,6 +3,7 @@
 .main_header {
   @include clearfix;
   background-image: url('/img/first_background.png');
+  background-size: cover;
   height: 800px;
   padding-top: 90px;
   color: $white;

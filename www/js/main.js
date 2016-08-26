@@ -20,4 +20,9 @@ $(function () {
         }
         return this;
     };
+
+    $('.js-coming-soon').click(function (e) {
+        e.preventDefault();
+        alert('Coming soon...');
+    })
 });
