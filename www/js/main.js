@@ -7,15 +7,14 @@ $(function () {
 
     $('.js-scroll-to').on('click', function(e) {
         e.preventDefault();
-        $(location.hash).scrollToBlock();
+        var block = $(this).attr('href');
+        $(block).scrollToBlock();
     });
 
     $.fn.scrollToBlock = function() {
-        var target = $(this),
-            headerHeight = $('.pseudo_header').height();
-        if ( target.length ) {
+        if ( this.length ) {
             $('html, body').animate({
-                scrollTop: target.offset().top
+                scrollTop: this.offset().top
             }, 1000);
         }
         return this;
